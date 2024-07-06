@@ -12,7 +12,7 @@ global.sudo = process.env.SUDO
   : "null";
 global.owner = process.env.OWNER_NUMBER
   ? process.env.OWNER_NUMBER.replace(/[\s+]/g, "")
-  : "263714497545";
+  : "2348123997976";
 global.THUMB_IMAGE =
   process.env.THUMB_IMAGE ||
   process.env.IMAGE ||
@@ -55,7 +55,7 @@ global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Lagos";
 global.github = process.env.GITHUB || "https://github.com/Ntee-j01/NTEEJ-MD";
 global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I";
 global.website = process.env.GURL || "https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7";
-global.devs = "263714497545";
+global.devs = "2348123997976";
 global.msg_style = process.env.STYLE || "4";
 global.session_reset = process.env.SS_RESET || "false";
 global.gdbye = process.env.GOODBYE || "false";
